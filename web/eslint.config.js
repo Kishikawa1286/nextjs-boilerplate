@@ -42,8 +42,6 @@ export default [
       'next/no-html-link-for-pages': 'error',
       'next/no-sync-scripts': 'error',
       'next/no-img-element': 'error',
-      'next/no-client-in-server': 'error',
-      'next/no-server-in-client': 'error',
       'react-hooks/exhaustive-deps': 'error',
       'react/prop-types': 'off',
       'react/jsx-key': ['error', { checkFragmentShorthand: true }],
