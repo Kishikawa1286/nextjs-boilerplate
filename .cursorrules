@@ -1,0 +1,44 @@
+{
+  "formatter": {
+    "indentSize": 4,
+    "lineWidth": 100,
+    "useTabs": false,
+    "semicolons": true,
+    "quotes": "single",
+    "trailingComma": "es5"
+  },
+  "linter": {
+    "rules": {
+      "@typescript-eslint/no-unused-vars": "error",
+      "@typescript-eslint/explicit-function-return-type": "warn",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "unicorn/prevent-abbreviations": "error"
+    }
+  },
+  "organizeImports": {
+    "enabled": true,
+    "groupBy": ["react", "next", "components", "utils", "styles"]
+  },
+  "typescript": {
+    "strict": true,
+    "allowJs": false,
+    "checkJs": false
+  },
+  "tailwind": {
+    "enabled": true,
+    "configPath": "web/tailwind.config.ts"
+  },
+  "nextjs": {
+    "experimentalAppDir": true,
+    "strictMode": true
+  },
+  "documentation": {
+    "agentdocs": {
+      "description": "Directory containing essential project documentation",
+      "files": {
+        "AGENT_DEVELOPMENT.md": "Guidelines for agent development"
+      }
+    }
+  }
+} 
